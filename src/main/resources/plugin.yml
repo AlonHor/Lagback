@@ -1,0 +1,6 @@
+name: LagBack
+version: @version@
+main: me.alon.lagback.LagBack
+api-version: 1.17
+authors: [ Alon ]
+description: A plugin that disables building (placing and breaking blocks) and lag backs players when needed like Watchdog does.
