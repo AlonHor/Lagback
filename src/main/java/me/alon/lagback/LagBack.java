@@ -29,10 +29,12 @@ public final class LagBack extends JavaPlugin implements Listener{
                     }
                     e.getPlayer().teleport(loc);
                 } else {
-                    e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
+                    // DEBUG
+                    // e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
                 }
             } else {
-                e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
+                // DEBUG
+                // e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
             }
         }
     }
@@ -52,10 +54,12 @@ public final class LagBack extends JavaPlugin implements Listener{
                 }
                 e.getPlayer().teleport(loc);
             } else {
-                e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
+                // DEBUG
+                // e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
             }
         } else {
-            e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
+            // DEBUG
+            // e.getPlayer().sendMessage(ChatColor.RED + "Not Lagging");
         }
     }
 }
