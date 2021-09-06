@@ -1,5 +1,5 @@
 name: LagBack
-version: @version@
+version: 1.0-SNAPSHOT
 main: me.alon.lagback.LagBack
 api-version: 1.17
 authors: [ Alon ]
