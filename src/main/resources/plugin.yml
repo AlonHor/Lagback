@@ -1,6 +1,6 @@
-name: LagBack
-version: @version@
-main: me.alon.lagback.LagBack
-api-version: 1.17
+name: Setback
+version: '${project.version}'
+main: me.alon.setback.Setback
+api-version: 1.18
 authors: [ Alon ]
-description: A plugin that disables building (placing and breaking blocks) and lag backs players when needed like Watchdog does.
+description: Anti-Glitch Setback Plugin!
